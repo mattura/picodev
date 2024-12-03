@@ -35,7 +35,7 @@ make -j32
 ```bash
 cd (your_project)
 rm -rf build.pico && mkdir build.pico && cd build.pico
-cmake .. -DCMAKE_TOOLCHAIN_FILE=$BLIT_PATH/32blit-sdk/pico.toolchain
+cmake .. -DCMAKE_TOOLCHAIN_FILE=$BLIT_DIR/pico.toolchain
 make -j32
 ```
 
